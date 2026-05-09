@@ -11,21 +11,27 @@ case $yn in
         sudo apt upgrade
         clear
         echo "Operation Done Successfully!"
+        sleep 3
+        clear
+        bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
         ;;
       n|N)
         echo "Ok no worries!"
         clear
         bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
-
         ;;
       *)
         echo "Invalid input"
+        clear
+        bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
         ;;
     esac
     ;;
 
   n|N)
     echo "Ok exiting"
-    exit
+    sleep 1
+    clear
+    bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
     ;;
 esac

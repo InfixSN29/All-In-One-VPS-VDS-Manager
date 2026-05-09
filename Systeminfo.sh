@@ -35,7 +35,7 @@ case $choice in
     ;;
   *)
     echo "invalid choice"
-    exit
+    sleep 2
     clear
     bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
     ;;
