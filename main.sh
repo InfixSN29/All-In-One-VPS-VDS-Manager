@@ -40,24 +40,30 @@ read -p "Enter a choice: " choice
       echo "Kit Installed Successfully, The following Items have been added: Neofetch; Python; Nano; Git; Wget; curl; docker"
       ;;
     4)
-      curl -fsSL https://localtonet.com/install.sh | sh
-      echo "LocalTonet Installed Successfully, Use the following command to connect "localtonet --authtoken <Add-your-Token-here>""
+      bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/guiinstaller.sh)
       ;;
     5)
       bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/cloudflaredinstaller.sh)
       ;;
     6)
-      
+      curl -fsSL https://localtonet.com/install.sh | sh
+      echo "LocalTonet Installed Successfully, Use the following command to connect "localtonet --authtoken <Add-your-Token-here>""
       ;;
     7)
       curl -sSf https://sshx.io/get | sh
+      clear
+      bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
       ;;
     8)
       sudo apt install tmate
       tmate
+      clear
+      bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
       ;;
     9)
       sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension
+      clear
+      bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
       ;;
     10)
       sudo apt install tmate
@@ -65,11 +71,10 @@ read -p "Enter a choice: " choice
       ;;
     0)
       echo "Bye Bye, Come again!"
-      exit
       ;;
     *)
       echo "Invalid choice"
-      exit
+      bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
       ;;
   esac
 
