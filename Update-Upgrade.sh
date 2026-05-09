@@ -14,7 +14,9 @@ case $yn in
         ;;
       n|N)
         echo "Ok no worries!"
-        exit
+        clear
+        bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
+
         ;;
       *)
         echo "Invalid input"
