@@ -52,3 +52,4 @@ case $choice in
     echo "Invalid Choice"
     bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/guiinstaller.sh)
     ;;
+esac
