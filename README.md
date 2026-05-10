@@ -9,3 +9,6 @@ Run This command to access various tools,
 bash <(curl https://raw.githubusercontent.com/InfixSN29/All-In-One-VPS-VDS-Manager/main/main.sh)
 ```
 
+Do you want to update System or upgrade? Just Type ```1``` And start your updation and upgradation!
+
+Do you want to Check your system info? Just type ```2``` and
